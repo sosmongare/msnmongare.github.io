@@ -1,0 +1,21 @@
+{
+  "name": "kennycodex.com",
+  "version": "1.0.0",
+  "description": "Site pessoal",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify assets/js/app.js -o assets/js/bundle.js"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-uglifycss": "^1.0.6",
+    "jquery": "^3.1.1"
+  }
+}
